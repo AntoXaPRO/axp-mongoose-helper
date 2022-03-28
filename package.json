@@ -1,0 +1,25 @@
+{
+  "name": "axp-mongoose-helper",
+  "version": "1.0.0",
+  "description": "My helper library",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "AntoXa PRO <info@antoxa.pro>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AntoXaPRO/axp-mongoose-helper.git"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "axp-ts": "^1.4.5",
+    "mongoose": "^6.2.8"
+  }
+}
