@@ -1,6 +1,6 @@
 {
 	"name": "axp-mongoose-helper",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"description": "My helper library",
 	"author": "AntoXa PRO <info@antoxa.pro>",
 	"homepage": "https://antoxahub.ru/antoxa/axp-mongoose-helper",
@@ -20,12 +20,12 @@
 		"prepare": "npm run build"
 	},
 	"dependencies": {
-		"axp-ts": "^1.9.6",
-		"mongoose": "^6.11.2"
+		"axp-ts": "^1.11.2",
+		"mongoose": "^6.12.0"
 	},
 	"devDependencies": {
-		"@rollup/plugin-typescript": "^11.1.2",
+		"@rollup/plugin-typescript": "^11.1.5",
 		"prettier": "^2.8.8",
-		"rollup": "^3.26.2"
+		"rollup": "^3.29.4"
 	}
 }
